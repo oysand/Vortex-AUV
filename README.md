@@ -55,3 +55,9 @@ roslaunch auv_setup pc.launch
   *   [Sonar EKF-SLAM and mapping inanstructured underwater environment](https://github.com/vortexntnu/Vortex-AUV/blob/documentation/top-level_readme/docs/master_theses/Ambj%C3%B8rn%20Waldum%20(2020).pdf)
   *   [Autonomous Navigation, Mapping, and Exploration for Underwater Robots](https://github.com/vortexntnu/Vortex-AUV/blob/documentation/top-level_readme/docs/master_theses/V%C3%A5ge%2C%20Utbjoe%2C%20Gjerden%20og%20Engebretsen%20(2019).pdf)
 
+
+## Setup docker
+
+Install docker as described here: https://docs.docker.com/engine/install/ubuntu/
+
+If you want to run docker without using sudo see: https://docs.docker.com/engine/install/linux-postinstall/
