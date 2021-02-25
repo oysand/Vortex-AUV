@@ -61,3 +61,26 @@ roslaunch auv_setup pc.launch
 Install docker as described here: https://docs.docker.com/engine/install/ubuntu/
 
 If you want to run docker without using sudo see: https://docs.docker.com/engine/install/linux-postinstall/
+
+Install docker-compose with the following command:
+
+```
+sudo apt install docker-compose
+```
+
+
+### Build and run docker container
+
+```
+docker-compose up --build
+```
+
+```
+docker-compose up
+```
+
+### Enter running docker container
+
+```
+docker exec -it vortexauv_vortexauv_1 /bin/bash
+```
