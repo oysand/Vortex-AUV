@@ -84,3 +84,17 @@ docker-compose up
 ```
 docker exec -it vortexauv_vortexauv_1 /bin/bash
 ```
+
+### Using .devcontainer in vscode
+
+Install remote containers extension in vscode. Then do the following commands.
+
+```
+ctr + shift + p
+
+reopen in containe
+
+ctr + shift + p
+
+rebuild container
+```
