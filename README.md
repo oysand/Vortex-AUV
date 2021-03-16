@@ -55,3 +55,31 @@ roslaunch auv_setup pc.launch
   *   [Sonar EKF-SLAM and mapping inanstructured underwater environment](https://github.com/vortexntnu/Vortex-AUV/blob/documentation/top-level_readme/docs/master_theses/Ambj%C3%B8rn%20Waldum%20(2020).pdf)
   *   [Autonomous Navigation, Mapping, and Exploration for Underwater Robots](https://github.com/vortexntnu/Vortex-AUV/blob/documentation/top-level_readme/docs/master_theses/V%C3%A5ge%2C%20Utbjoe%2C%20Gjerden%20og%20Engebretsen%20(2019).pdf)
 
+## Pytest
+
+Install pip
+```
+sudo apt install python-pip
+```
+
+Install requirements
+```
+pip install -r requirements.txt
+```
+
+Setup pytest py pressing:  
+`
+ctrl + shift + p
+`
+then select: 
+`
+Python: Configure pytest
+`
+followed by: 
+`
+pytest
+`
+then: 
+`
+. Root directory
+`
